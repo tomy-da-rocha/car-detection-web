@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "car-detection-web"
+version = "1.0.0"
+description = "A project to detect cars in images using YOLOv11"
+authors = [
+    { name="Tomy Da Rocha" },
+    { name="this guy" }
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "ultralytics",
+    "streamlit",
+]
