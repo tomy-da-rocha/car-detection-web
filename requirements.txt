@@ -73,6 +73,7 @@ numpy==2.2.0
     #   contourpy
     #   matplotlib
     #   opencv-python
+    #   opencv-python-headless
     #   pandas
     #   pydeck
     #   scipy
@@ -83,6 +84,8 @@ numpy==2.2.0
     #   ultralytics-thop
 opencv-python==4.10.0.84
     # via ultralytics
+opencv-python-headless==4.10.0.84
+    # via car-detection-web (pyproject.toml)
 packaging==24.2
     # via
     #   altair
